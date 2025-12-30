@@ -21,7 +21,7 @@ const Search = () => {
     >
       {/* Category */}
       <Select name="category" defaultValue="all">
-        <SelectTrigger className="h-full w-24 rounded-none border-0 border-r bg-gray-100 px-2 text-sm text-black focus:ring-0">
+        <SelectTrigger className="h-full w-16 rounded-none border-0 border-r bg-gray-100 px-2 text-sm text-black focus:ring-0">
           <SelectValue placeholder="ALL" />
         </SelectTrigger>
 
